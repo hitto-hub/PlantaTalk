@@ -26,7 +26,7 @@ cp .env.example .env
 ### 2. docker-compose up
 
 ```bash
-sh setup.sh
+sh start.sh
 ```
 
 ### 3. おしまい finish
