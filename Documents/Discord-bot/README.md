@@ -1,0 +1,1 @@
+# PlantaTalk Discord Bot Documentation
