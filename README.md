@@ -1,16 +1,22 @@
-# Watering-IoT
-
-## Description
-
-植物と会話する時代へ: M5Stack 自動給水器と Discord Bot の完璧な連携
+# PlantaTalk
 
 ## Related Repositories
 
-- [Watering-IoT-Docker](https://github.com/hitto-hub/Watering-IoT-Docker) <- This repo
-- [Watering-Discord-Bot](https://github.com/hitto-hub/Watering-discord-bot)
-- [Watering-M5Stack](https://github.com/hitto-hub/M5StackWatering)
-- [Watering-Backend](https://github.com/hitto-hub/Watering-backend)
+- [PlantaTalk](https://github.com/hitto-hub/PlantaTalk)
+  PlantaTalk のメインレポジトリ
 
+- [PlantaTalk-device-m5stack](https://github.com/hitto-hub/PlantaTalk-device-m5stack)
+  M5Stack 用 IoT デバイス制御
+
+- [PlantaTalk-discord-bot](https://github.com/hitto-hub/PlantaTalk-discord-bot)
+  Discord ボット
+
+- [PlantaTalk-backend](https://github.com/hitto-hub/PlantaTalk-backend)
+  PlantaTalk のバックエンド
+
+- [Watering-backend-python](https://github.com/hitto-hub/Watering-backend-python)
+  Python で書かれた 旧バックエンド
+<!--
 ## Setup
 
 ### 1. git clone & cd & .env
@@ -41,4 +47,4 @@ sh down.sh
 
 if you want to change, edit [docker-compose.yml](./docker-compose.yml#L6)
 
-default: 5050
+default: 5050 -->
